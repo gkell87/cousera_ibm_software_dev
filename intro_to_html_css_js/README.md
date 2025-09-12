@@ -1,1 +1,1 @@
-## COURSERA IBM Software Dev Coure-sware
+## COURSERA IBM Software Dev Course-ware
