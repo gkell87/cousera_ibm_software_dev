@@ -1,1 +1,1 @@
-## Intro into HTML and CSS
+## Intro into HTML, CSS and JS
