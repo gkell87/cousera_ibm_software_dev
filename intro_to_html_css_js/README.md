@@ -11,9 +11,9 @@ HTML5 is considered the "living standard" for all web development, and its capab
 
 Key differences between HTML5 and older versions
  - HTML5  reduces reliance on third-party browser plugins like Adobe Flash.
- - Has native <audio> and <video> tags for embedding media directly.
- - Introduced new semantic tags like <header>, <footer>, <nav>, <section>, and <article> to provide meaning and better structure to content.
- - Includes the <canvas> element for drawing graphics with JavaScript and supports Scalable Vector Graphics (SVG) directly.
+ - Has native 'audio' and 'video' tags for embedding media directly.
+ - Introduced new semantic tags like 'header', 'footer', 'nav', 'section', and 'article' to provide meaning and better structure to content.
+ - Includes the 'canvas' element for drawing graphics with JavaScript and supports Scalable Vector Graphics (SVG) directly.
  - Provides much larger and more efficient client-side storage options through localStorage and sessionStorage.
  - Built with mobile devices in mind, making it easier to create responsive websites that work on any screen size.
  - Features a simplified <!DOCTYPE html> declaration and improved parsing rules for better compatibility and consistent error handling across browsers.
