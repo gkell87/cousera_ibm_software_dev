@@ -16,7 +16,7 @@ Key differences between HTML5 and older versions
  - Includes the 'canvas' element for drawing graphics with JavaScript and supports Scalable Vector Graphics (SVG) directly.
  - Provides much larger and more efficient client-side storage options through localStorage and sessionStorage.
  - Built with mobile devices in mind, making it easier to create responsive websites that work on any screen size.
- - Features a simplified <!DOCTYPE html> declaration and improved parsing rules for better compatibility and consistent error handling across browsers.
+ - Features a simplified '!DOCTYPE html' declaration and improved parsing rules for better compatibility and consistent error handling across browsers.
 
 Important features and APIs in HTML5
   - Geolocation API: Allows web applications to access a user's geographical location, with their permission, for location-based services.
