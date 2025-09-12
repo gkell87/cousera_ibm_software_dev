@@ -16,10 +16,44 @@
 
                     <!-- Button for redirecting users to the weight section -->
                     <a href="#weight"><button>Weight</button></a>
-                    
+
                     <!-- Button for redirecting users to the distance section -->
                     <a href="#distance"><button>Distance</button></a>
                 </nav>
             </section>
+            <!-- This will have the conversion sections for Temperature, Weight, and Distance -->
+            <div id='all-conversion-section'>
+                <!--Temperature conversion section -->
+                <section id='temperature'>
+                    <div id='tmp'>
+                        <figure>
+                             <!-- Figure and its caption come here -->
+                             <img src='https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png' width='200px'/>
+                             <figcaption>Celsious to Fahrenheit Conversion</figcaption>
+                        </figure>
+
+                        <article>
+                            <!-- This contains the specific elements for temperature conversion-->
+                            <fieldset>
+                                <legend>Temperature</legend>
+                                  <!-- Label for Temperature input -->
+                                  <label for='celsius'>Celsius</label> <br/>
+                                  <input type='number' id='celsius'/> <br/>
+
+                                  <!-- The conversion button -->
+                                  <button id='temperature'> Convert </button> <br/>
+                                  
+                                  <!-- Label for Temperature output -->
+                                  <input type='number' id='fahrenheit'/> <br/>
+                                  <label for='fahrenheit'>Fahrenheit</label> <br/>
+
+                            </fieldset>
+                        </article>
+                        <aside>
+                            To convert celsius to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsius: (C × 9/5) + 32
+                        </aside>
+                    </section>
+                </section>
+            </div>          
 	    </body>
 	</html>
