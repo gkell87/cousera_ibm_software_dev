@@ -3,6 +3,7 @@
   <head>
       <title>Conversion Test</title>
       <link rel="stylesheet" href="convert_style.css">
+      <script src="unit_conversion.js"></script>
   </head>
   <body>
       <section id="home">
@@ -32,7 +33,7 @@
                 <label for="celsius">Celsius</label> <br/>
                 <input type="number" id="celsius"> <br/><br/>
 
-                <button id="temperature"> Convert </button> <br/><br/>
+                <button id="temperature" onclick="temperature()"> Convert </button> <br/><br/>
                 <input type="number" id="fahrenheit"> <br/>
 
                 <label for="fahrenheit">Fahrenheit</label>
@@ -57,7 +58,7 @@
                 <label for="kilo">KG</label> <br/>
                 <input type="number" id="kilo"> <br/><br/>
 
-                <button id="weight"> Convert </button>  <br/><br/>
+                <button id="weight" onclick="weight()"> Convert </button>  <br/><br/>
  
                 <input type="number" id="pounds">  <br/>
                 <label for="pounds">Pounds</label>    
@@ -81,7 +82,7 @@
                   <label for="km">KM</label> <br/>
                   <input type="number" id="km">  <br/><br/>
 
-                  <button id="distance"> Convert </button> <br/><br/>
+                  <button id="distance" onclick="distance()"> Convert </button> <br/><br/>
 
                   <input type="number" id="miles">  <br/> 
                   <label for="miles">Miles</label>
