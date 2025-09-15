@@ -18,23 +18,23 @@ const employees = [
 // The reduce method iterates through each employee and accumulates their salaries.
 function calculateTotalSalaries() {
     const totalSalaries = employees.reduce((acc, employee) => acc + employee.salary, 0);
-    alert('Total Salaries: $${totalSalaries}');
+    alert(`Total Salaries: $${totalSalaries}`);
 }
 
 function displayHREmployees() {
-    consthrEmployees = employees.filter(employee => employee.department === 'HR');
+    const hrEmployees = employees.filter(employee => employee.department === 'HR');
      const hrEmployeesDisplay = hrEmployees.map((employee, index) => `<p>${employee.id}: ${employee.name}: ${employee.name} - ${employee.department} - $${employee.salary}</p>`).join('');
-     document.getElementById('employeeDetails').innerHTML = hrEmployeesDisplay;
+     document.getElementById('employeesDetails').innerHTML = hrEmployeesDisplay;
 }
 
 
 
-function findEmployeeByID(employeeId) {
+function findEmployeeById(employeeId) {
     const foundEmployee = employees.find(employee => employee.id === employeeId);
     if (foundEmployee) {
-        document.getElementsById('employeeDetails').innerHTML =`<p>${foundEmployee.id}: ${foundEmployee.name}: ${foundEmployee.name} - ${foundEmployee.department} - $${foundEmployee.salary}</p>`
+    document.getElementById('employeesDetails').innerHTML =`<p>${foundEmployee.id}: ${foundEmployee.name}: ${foundEmployee.name} - ${foundEmployee.department} - $${foundEmployee.salary}</p>`;
     }
     else{
-        document.getElementById(employeesDetail).innerHTML = 'no employees found with this ID'
-    }
-}
+      document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this ID';
+     }
+ }
