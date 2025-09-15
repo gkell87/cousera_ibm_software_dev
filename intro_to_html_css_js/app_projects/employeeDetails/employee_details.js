@@ -9,10 +9,10 @@ const employees = [
   // Create function to display empolyees
   function displayEmployees() {
     const totalEmployees = employees
-        .map(employee => '<p>${employee.id} : ${employee.name} - ${employee.department} - $${employee.salary}</p>')
+        .map(employee => `<p>${employee.id}: ${employee.name} - ${employee.department} - $${employee.salary}</p>`)
         .join('');
-    document.getElementById('employeeDetails').innerHTML = totalEmployees;
-  }
+    document.getElementById('employeesDetails').innerHTML = totalEmployees;
+}
 
 // Create function for total salaries
 // The reduce method iterates through each employee and accumulates their salaries.
