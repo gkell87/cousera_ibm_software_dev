@@ -28,7 +28,6 @@ function displayHREmployees() {
 }
 
 
-
 function findEmployeeById(employeeId) {
     const foundEmployee = employees.find(employee => employee.id === employeeId);
     if (foundEmployee) {
@@ -36,5 +35,15 @@ function findEmployeeById(employeeId) {
     }
     else{
       document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this ID';
+     }
+ }
+
+ function findEmployeeBySpecialization(specialization) {
+    const foundEmployee = employees.find(employee => employee.specialization === specialization);
+    if (foundEmployee) {
+    document.getElementById('employeesDetails').innerHTML =`<p>${foundEmployee.id}: ${foundEmployee.name}: ${foundEmployee.name} - ${foundEmployee.department} - $${foundEmployee.salary}</p>`;
+    }
+    else{
+      document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this Specialization';
      }
  }
