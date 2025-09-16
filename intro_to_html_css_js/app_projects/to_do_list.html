@@ -56,7 +56,7 @@
         const taskText = input.value.trim();
         
         if (taskText !== '') {
-            const ul = document.getElementById('todoList');
+            const ul = document.getElementById("todoList");
 
             // Create new list item
             const li = document.createElement('li');
@@ -65,13 +65,13 @@
             const span = document.createElement('span');
             span.textContent = taskText;
 
-            // Create edit button
+            // Create Edit Button
             const editButton = document.createElement('button');
             editButton.textContent = 'Edit';
             editButton.onclick = () => editTask(span);
 
-            // Create remove button
-            const removeButton = document.createElement('button');
+            // Create Remove Button
+            const removeButton = document.createElement('button')
             removeButton.textContent = 'Delete';
             removeButton.onclick = () => removeTask(li);
 
