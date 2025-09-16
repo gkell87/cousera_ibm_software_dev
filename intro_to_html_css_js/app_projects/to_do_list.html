@@ -90,6 +90,17 @@
             alert('Please enter valid task.')
         }
     }
+    
+    // Function to edit task
+    function editTask(span) {
+        // Prompt the use to edit task
+        const newTask = prompt('Edit Task:', span.textContent);
+
+        // Update if new task is not null or empty
+        if (newTask !== null && newTask.trim() !== '') {
+            spanContent = newtask.trim(); // Sets new task
+        }
+    }
 </script>
 
 </body>
