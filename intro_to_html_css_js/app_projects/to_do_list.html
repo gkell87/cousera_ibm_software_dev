@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'UTF-8'>
+    <meta name = 'viewpoer' content = 'width=device-width, initial-scale=1.0'>
+    <title>To-do List</title>
+    <style>
+        /* Style the to do list container */
+        .todo-container {
+            width : 300px;
+            margin : 50px auto;
+            padding : 20px;
+            border : 1px solid #ccc;
+            border-radius : 5px;
+        }
+
+        /* Remove default list styling */
+        .todo-list {
+            list-style-type : none;
+            padding : 0;
+        }
+
+        /* Style each list item foe todo list */
+        li {
+            margin : 10px 0;
+            display : flex;
+            justify-content : space-between;
+            align-items : center;
+        }
+
+        /* Add space for buttons in lists items */
+        button {
+            margin-left : 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class = 'todo-container'>
+    <h1>To-Do List</h1>
+
+    <!--Input field to add new task-->
+    <input type = text id = 'taskInput' placeholder = 'Add new task'>
+
+    <!--Button to add task to list-->
+    <button class = 'add-btn' onclick = 'addTask()'>Add Task</button>
+
+    <!--Unordered list to display tasks-->
+    <ul class = 'todo-list' id = 'todo-List'></ul>
+</div>
+
+<script>
+    // place holder to be added later
+</script
+
+</body>
+</html>
