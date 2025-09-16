@@ -35,19 +35,18 @@
     </style>
 </head>
 <body>
-
-<div class = 'todo-container'>
-    <h1>To-Do List</h1>
-
-    <!--Input field to add new task-->
-    <input type = 'text' id = 'taskInput' placeholder = 'Add new task'>
-
-    <!--Button to add task to list-->
-    <button class = 'add-btn' onclick = 'addTask()'>Add Task</button>
-
-    <!--Unordered list to display tasks-->
-    <ul class = 'todo-list' id = 'todoList'></ul>
-</div>
+    
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <!-- Input field to add new tasks -->
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        
+        <!-- Button to add a new task to the list -->
+        <button class="add-btn" onclick="addTask()">Add Task</button>
+        
+        <!-- Unordered list to display the tasks -->
+        <ul class="todo-list" id="todoList"></ul>
+    </div>
 
 <script>
     // function to add task
