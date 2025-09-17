@@ -1,7 +1,7 @@
-Developing Front-End Apps with React
+# Developing Front-End Apps with React
 
 
-React.js
+## React.js
 React.js (also known as React or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. 
 
 Key characteristics of React.js:
@@ -14,9 +14,9 @@ Key characteristics of React.js:
 Why React.js is used:
 React.js is widely used for building single-page applications (SPAs), complex user interfaces, and mobile applications (with React Native). Its component-based approach, performance optimizations, and developer-friendly features make it a popular choice for modern web development.
 
-ES6
+## ES6
 
-JSX
+## JSX
 
 
 
