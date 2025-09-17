@@ -33,7 +33,7 @@ JSX, or JavaScript XML, is a syntax extension for JavaScript that allows you to 
 
 How it works
   - Syntax Extension: JSX looks like HTML, but it's not actual HTML. It's a special syntax that goes into your JavaScript files. 
-  - Compilation: A tool, such as a JavaScript compiler like Babel, converts the JSX syntax into standard JavaScript function calls. For example, <h1 className="greeting">Hello</h1> becomes React.createElement('h1', {className: 'greeting'}, 'Hello'). 
+  - Compilation: A tool, such as a JavaScript compiler like Babel, converts the JSX syntax into standard JavaScript function calls. 
   - React Elements: These compiled JavaScript functions create React "elements," which are plain JavaScript objects that describe the structure and content of your UI. 
 
 Key Features and Differences from HTML
